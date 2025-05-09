@@ -3,6 +3,7 @@ FROM alpine:3.21
 # Install packages
 RUN apk add \
     bash \
+    cargo \
     clang \
     git \
     gcc \
